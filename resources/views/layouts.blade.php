@@ -17,8 +17,8 @@
             <a class="navbar-brand" href="{{ url('') }}">
                 Gyakuten
             </a>
-            </div>
-        </header>
+        </div>
+    </header>
         @yield('content')
-    </body>
-    </html>
+</body>
+</html>
