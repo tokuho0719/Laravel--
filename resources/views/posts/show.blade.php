@@ -28,7 +28,7 @@
             {{method_field('DELETE')}}
             <button class="btn btn-danger">削除</button>
         </form>
-    </div>  
+    </div>
 </div>
 
 @endsection('content')

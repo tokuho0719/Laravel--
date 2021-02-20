@@ -14,7 +14,11 @@
                         id="title"
                         name="title"
                         class="form-control"
+                        value="{{old('title')}}"
                         type="text">
+                        <div class="text-danger">
+                            {{$errors->first('title')}}
+                        </div>
                 </div>
                 <div>
                     <label for="body">
@@ -26,17 +30,21 @@
                         name="body"
                         class="form-control"
                         rows="4">
+                        {{old('body')}}
                     </textarea>
+                    <div class="text-danger">
+                            {{$errors->first('body')}}
+                    </div>
                     
                 </div>
                 <div class="mt-5">
                     <a class="btn btn-secondry" href="{{route('top')}}">キャンセル</a>
                 
                     <button class="btn btn-primary" type="submit">投稿する</button>
-                </div>    
+                </div>
             </fieldset>
         </form>
-    </div>  
+    </div>
 </div>
 
 @endsection('content')

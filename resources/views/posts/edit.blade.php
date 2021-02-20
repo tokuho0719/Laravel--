@@ -37,10 +37,10 @@
                     <a class="btn btn-secondary" href="{{route('posts.show',['post' => $post])}}">キャンセル</a>
                 
                     <button class="btn btn-primary" type="submit">更新する</button>
-                </div>    
+                </div>
             </fieldset>
         </form>
-    </div>  
+    </div>
 </div>
 
 @endsection('content')
