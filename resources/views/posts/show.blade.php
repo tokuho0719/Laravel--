@@ -8,7 +8,7 @@
         <div class="card-header mb-2">
             {{ $post->title}}
         </div>
-        <div class="card-body"> 
+        <div class="card-body">
             <p class="card-text">{{ $post->body}}</p>
         </div>
         <div class="card-footer">
