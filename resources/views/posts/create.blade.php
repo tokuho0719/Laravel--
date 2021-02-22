@@ -29,10 +29,10 @@
                         id="body"
                         name="body"
                         class="form-control"
-                        rows="4">
-                        {{old('body')}}</textarea>
+                        rows="4"
+                    >{{old('body')}}</textarea>
                     <div class="text-danger">
-                            {{$errors->first('body')}}
+                        {{$errors->first('body')}}
                     </div>
                     
                 </div>
